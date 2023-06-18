@@ -11,12 +11,5 @@ public class DashboardPage {
         PageFactory.initElements(Driver.getDriver(),this);}
 
 
-    @FindBy(id = "login")
-    public WebElement username;
 
-    @FindBy (id = "password")
-    public WebElement password;
-
-    @FindBy (xpath = "//*[@id=\"wrapwrap\"]/main/div/form/div[3]/button")
-    public WebElement loginButton;
 }
