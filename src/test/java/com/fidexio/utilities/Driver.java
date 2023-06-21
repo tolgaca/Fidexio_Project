@@ -30,6 +30,7 @@ public class Driver {
 
     private static InheritableThreadLocal<WebDriver> driverPool = new InheritableThreadLocal<>();
 
+
     /*
     Create a re-usable utility method which will return same driver instance when we call it
      */
